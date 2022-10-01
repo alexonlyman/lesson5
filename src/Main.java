@@ -60,7 +60,7 @@ public class Main {
         }
 
         int one = 1;
-        int two = 2;
+        int two = 20;
         int three = 3;
         if (one>two)
         if (one>three){
@@ -73,8 +73,18 @@ public class Main {
         if (three>two)
             if (three>one) {
                 System.out.println("число "+ three + " самое большое" );
+
             }
 
+
+        if (one>two && one>three)
+        {System.out.println("Самое большре число "+ one);
+
+        } else if (two>one && two>three) {
+            System.out.println("Самое большое число "+ two);
+        } else if (three>one && three>two) {
+            System.out.println("Самое большое число " + three);
+        }
 
 
 
